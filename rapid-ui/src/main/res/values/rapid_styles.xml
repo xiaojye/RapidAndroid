@@ -1,0 +1,9 @@
+<resources>
+
+    <!--图片预览样式-->
+    <style name="RapidImagePreview">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+</resources>

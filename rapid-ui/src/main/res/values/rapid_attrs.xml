@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 指定边框颜色 -->
+    <attr name="rapid_borderColor" format="color" />
+    <!-- 指定边框线宽度 -->
+    <attr name="rapid_borderWidth" format="dimension" />
+    <!-- 边框是否覆盖内容 -->
+    <attr name="rapid_borderOverlay" format="boolean" />
+
+    <!-- 同时指定四个方向的圆角大小 -->
+    <attr name="rapid_cornerRadius" format="dimension" />
+    <!-- 指定左上方圆角的大小 -->
+    <attr name="rapid_cornerRadiusTopLeft" format="dimension" />
+    <!-- 指定右上方圆角的大小 -->
+    <attr name="rapid_cornerRadiusTopRight" format="dimension" />
+    <!-- 指定左下方圆角的大小 -->
+    <attr name="rapid_cornerRadiusBottomLeft" format="dimension" />
+    <!-- 指定右下方圆角的大小 -->
+    <attr name="rapid_cornerRadiusBottomRight" format="dimension" />
+
+    <!-- 圆角图片 -->
+    <declare-styleable name="RapidCircleImageView">
+        <attr name="rapid_borderColor" />
+        <attr name="rapid_borderWidth" />
+        <attr name="rapid_borderOverlay" />
+        <!--图片的底色,默认透明-->
+        <attr name="rapid_civ_bgColor" format="color" />
+    </declare-styleable>
+
+    <!-- 字母索引栏 -->
+    <declare-styleable name="RapidLetterIndexBar">
+        <!--侧边栏文本颜色-->
+        <attr name="rapid_lib_textColor" format="color" />
+    </declare-styleable>
+
+    <!-- 自定义按钮 -->
+    <declare-styleable name="RapidButton">
+        <attr name="rapid_cornerRadius" />
+        <!-- 按钮默认颜色 -->
+        <attr name="rapid_btn_bgColor" format="color" />
+        <!-- 按钮触碰颜色 -->
+        <attr name="rapid_btn_bgColor_pressed" format="color" />
+        <!-- 按钮禁用颜色 -->
+        <attr name="rapid_btn_bgColor_disable" format="color" />
+    </declare-styleable>
+
+</resources>

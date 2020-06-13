@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/rapid_dp_48"
+        android:gravity="center_vertical"
+        app:navigationIcon="@mipmap/common_toolbar_back_ic_dark"
+        tools:background="@color/white">
+
+        <TextView
+            android:id="@+id/toolbar_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/rapid_sp_18"
+            tools:text="标题" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:id="@+id/toolbar_divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/rapid_dp_1"
+        android:background="#eee" />
+
+</LinearLayout>

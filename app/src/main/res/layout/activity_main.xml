@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/main_btn_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示Toast" />
+
+    <Button
+        android:id="@+id/main_btn_image_preview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="预览图片" />
+
+    <Button
+        android:id="@+id/main_btn_image_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择图片" />
+
+    <Button
+        android:id="@+id/main_btn_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="支付测试（0.01）" />
+
+    <Button
+        android:id="@+id/main_btn_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="退出程序" />
+
+</LinearLayout>

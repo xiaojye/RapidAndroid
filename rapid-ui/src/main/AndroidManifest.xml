@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.jye.rapidandroid.ui">
+
+
+    <application>
+
+        <activity android:name=".image.picker.ui.ImagePickerActivity" />
+
+        <activity
+            android:name=".image.preview.ui.ImagePreviewActivity"
+            android:resizeableActivity="true"
+            android:theme="@style/RapidImagePreview"
+            tools:targetApi="n" />
+
+    </application>
+
+</manifest>

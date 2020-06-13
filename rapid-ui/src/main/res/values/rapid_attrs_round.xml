@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 是否将圆角设置为圆形 -->
+    <attr name="rapid_round_isCircle" format="boolean" />
+
+    <declare-styleable name="Round">
+        <attr name="rapid_borderColor" />
+        <attr name="rapid_borderWidth" />
+        <attr name="rapid_cornerRadius" />
+        <attr name="rapid_cornerRadiusTopLeft" />
+        <attr name="rapid_cornerRadiusTopRight" />
+        <attr name="rapid_cornerRadiusBottomLeft" />
+        <attr name="rapid_cornerRadiusBottomRight" />
+        <attr name="rapid_round_isCircle" />
+    </declare-styleable>
+
+    <declare-styleable name="RapidRoundFrameLayout">
+        <attr name="rapid_borderColor" />
+        <attr name="rapid_borderWidth" />
+        <attr name="rapid_cornerRadius" />
+        <attr name="rapid_cornerRadiusTopLeft" />
+        <attr name="rapid_cornerRadiusTopRight" />
+        <attr name="rapid_cornerRadiusBottomLeft" />
+        <attr name="rapid_cornerRadiusBottomRight" />
+        <attr name="rapid_round_isCircle" />
+    </declare-styleable>
+
+    <declare-styleable name="RapidRoundLinearLayout">
+        <attr name="rapid_borderColor" />
+        <attr name="rapid_borderWidth" />
+        <attr name="rapid_cornerRadius" />
+        <attr name="rapid_cornerRadiusTopLeft" />
+        <attr name="rapid_cornerRadiusTopRight" />
+        <attr name="rapid_cornerRadiusBottomLeft" />
+        <attr name="rapid_cornerRadiusBottomRight" />
+        <attr name="rapid_round_isCircle" />
+    </declare-styleable>
+
+    <declare-styleable name="RapidRoundRelativeLayout">
+        <attr name="rapid_borderColor" />
+        <attr name="rapid_borderWidth" />
+        <attr name="rapid_cornerRadius" />
+        <attr name="rapid_cornerRadiusTopLeft" />
+        <attr name="rapid_cornerRadiusTopRight" />
+        <attr name="rapid_cornerRadiusBottomLeft" />
+        <attr name="rapid_cornerRadiusBottomRight" />
+        <attr name="rapid_round_isCircle" />
+    </declare-styleable>
+
+    <declare-styleable name="RapidRoundView">
+        <attr name="rapid_borderColor" />
+        <attr name="rapid_borderWidth" />
+        <attr name="rapid_cornerRadius" />
+        <attr name="rapid_cornerRadiusTopLeft" />
+        <attr name="rapid_cornerRadiusTopRight" />
+        <attr name="rapid_cornerRadiusBottomLeft" />
+        <attr name="rapid_cornerRadiusBottomRight" />
+        <attr name="rapid_round_isCircle" />
+    </declare-styleable>
+
+    <declare-styleable name="RapidRoundImageView">
+        <attr name="rapid_borderColor" />
+        <attr name="rapid_borderWidth" />
+        <attr name="rapid_cornerRadius" />
+        <attr name="rapid_cornerRadiusTopLeft" />
+        <attr name="rapid_cornerRadiusTopRight" />
+        <attr name="rapid_cornerRadiusBottomLeft" />
+        <attr name="rapid_cornerRadiusBottomRight" />
+        <attr name="rapid_round_isCircle" />
+    </declare-styleable>
+
+    <declare-styleable name="RapidRoundTextView">
+        <attr name="rapid_borderColor" />
+        <attr name="rapid_borderWidth" />
+        <attr name="rapid_cornerRadius" />
+        <attr name="rapid_cornerRadiusTopLeft" />
+        <attr name="rapid_cornerRadiusTopRight" />
+        <attr name="rapid_cornerRadiusBottomLeft" />
+        <attr name="rapid_cornerRadiusBottomRight" />
+        <attr name="rapid_round_isCircle" />
+    </declare-styleable>
+
+</resources>

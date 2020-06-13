@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rapid_image_preview_rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical">
+
+    <com.jye.rapidandroid.ui.image.preview.widget.PreviewGestureView
+        android:id="@+id/rapid_image_preview_gesture_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.jye.rapidandroid.ui.image.preview.widget.PreviewViewPager
+            android:id="@+id/rapid_image_preview_vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.jye.rapidandroid.ui.image.preview.widget.PreviewGestureView>
+
+    <TextView
+        android:id="@+id/rapid_image_preview_index_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/rapid_dp_20"
+        android:shadowColor="#000"
+        android:shadowDx="1.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="2.0"
+        android:textColor="#ffffff"
+        tools:text="1/1" />
+
+    <LinearLayout
+        android:id="@+id/rapid_image_preview_custom_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--这里动态添加相关自定义View-->
+
+    </LinearLayout>
+
+</RelativeLayout>

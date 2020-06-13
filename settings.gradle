@@ -1,0 +1,2 @@
+include ':app', ':rapid-core', ':rapid-http', ':rapid-update', ':rapid-ui', ':rapid-payment'
+rootProject.name='RapidAndroid'
